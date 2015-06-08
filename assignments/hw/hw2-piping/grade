@@ -1,6 +1,10 @@
-100/ 100
+85/ 100
 Last update Mon May 18 14:22:41 2015 -0700
--10: late
+
+ -25: memory leak found in valgrind
+ ==42169== 65,536 bytes in 1 blocks are definitely lost in loss record 1 of 1 ==42169== definitely lost: 65,536 bytes in 1 blocks
+
+
 -----------------------------------------------------
 [1]  Input redirection from an existant file (25)
 celik$ this is correct
